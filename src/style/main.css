@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+
+.row{
+    margin-right: 0px;
+}
+
+.konten2{
+    padding: 0px !important;
+}
+
+.kotak{
+    background-color:#0d253f;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 50%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#tmdb-logo{
+    width: 75%;
+}
+
+.card-actor{
+    overflow-x: auto;
+}
+
+.card-body-actor {
+    border-radius: 15px;
+    min-height: 300px;
+    min-width: fit-content;
+    margin-right: 5px;
+    padding: 0 0;
+}
+
+.card-actor img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-actor p{
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    #cariDulu{
+        font-size: 24pt;
+    }
+}
+
+footer{
+    background-color: #ff508a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-weight: 700;
+}
+
+footer p{
+    margin-bottom: 0px;
+}
+
+footer span:first-child{
+    color: rgb(0, 217, 255);
+}
+
+footer span:last-child{
+    color: yellow;
+}
